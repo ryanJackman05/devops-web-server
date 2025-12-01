@@ -1,3 +1,37 @@
 body {
+  background-color: #126171;
   font-family: Arial;
+}
+header{
+  background-color: #288D8A;
+  font-size: x-large;
+  color: #033854;
+  text-shadow: 2px 2px darkgreen;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+}
+nav a{
+  flex-basis: 20%;
+  border: 5px solid #45A994;
+  background-color: #94E1B4;
+  font-size:larger;
+}
+nav a:hover{
+  border: 5px solid #69C5A0;
+  background-color: lightblue;
+  font-size:larger;
+}
+aside{
+  float:right;
+  padding: 1.5cm;
+  background-color: peachpuff;
+  border: 10px solid darkgreen;
+}
+p{
+  color: #C5FDD3;
+}
+h2, h3, h4{
+  color: #94E1B4
 }
